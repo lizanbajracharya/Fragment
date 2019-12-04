@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragment.SumFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <EditText
+       android:id="@+id/etFirst"
+       android:textSize="25dp"
+       android:hint="First Number"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etSecond"
+        android:textSize="25dp"
+        android:hint="Second Number"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Calculate" />
+
+</LinearLayout>
